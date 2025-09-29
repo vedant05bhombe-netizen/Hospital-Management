@@ -30,7 +30,7 @@ public class DoctorService {
     }
 
 
-    public void deleteDoctorById(DoctorEntity doctorEntity , Long Id) {
+    public void deleteDoctorById( Long Id) {
         doctorRepo.deleteById(Id);
     }
 }

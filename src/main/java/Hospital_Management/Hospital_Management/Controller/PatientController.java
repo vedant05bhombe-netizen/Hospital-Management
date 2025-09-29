@@ -27,7 +27,7 @@ public class PatientController {
                 .orElse(ResponseEntity.notFound().build());
     }
 
-    @PostMapping
+    @PostMapping("/add")
     public ResponseEntity<PatientEntity> createPatient(@RequestBody PatientEntity patientEntity) {
         PatientEntity created = patientService.createPatient(patientEntity);
         return ResponseEntity.status(201).body(created);

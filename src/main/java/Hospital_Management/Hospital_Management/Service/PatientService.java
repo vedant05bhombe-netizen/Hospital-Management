@@ -3,6 +3,7 @@ package Hospital_Management.Hospital_Management.Service;
 import Hospital_Management.Hospital_Management.Entity.PatientEntity;
 import Hospital_Management.Hospital_Management.Repo.PatientRepo;
 import lombok.AllArgsConstructor;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
