@@ -1,11 +1,11 @@
-# 🏥 Hospital Management System (Spring Boot Backend)
+#  Hospital Management System (Spring Boot Backend)
 
 A backend system built using **Spring Boot** for managing hospital operations — including patients, doctors, appointments, and medical records.  
 It is designed to be efficient, modular, and easily integrable with any frontend like React or Angular.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Manage Doctors, Patients, Appointments, and Medical Records  
 - Add, update, delete, and view hospital data through secure REST APIs  
@@ -16,7 +16,7 @@ It is designed to be efficient, modular, and easily integrable with any frontend
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 **Language:** Java  
 **Framework:** Spring Boot  
@@ -30,11 +30,11 @@ It is designed to be efficient, modular, and easily integrable with any frontend
 
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Clone the Repository
+###  Clone the Repository
 ```bash
 git clone https://github.com/yourusername/hospital-management-backend.git
 cd hospital-management-backend
-# 🏥 Hospital Management System (Spring Boot Backend)
+#  Hospital Management System (Spring Boot Backend)
 
 A backend system built using **Spring Boot** for managing hospital operations — including patients, doctors, appointments, and medical records.  
 It is designed to be efficient, modular, and easily integrable with any frontend like React or Angular.
@@ -43,7 +43,7 @@ It is designed to be efficient, modular, and easily integrable with any frontend
 
 ## ⚙️ Setup & Run Instructions
 
-### 1️⃣ Configure the Database
+###  Configure the Database
 Create a MySQL database (example: `hospital_db`) and update the `application.properties` file:
 
 ```properties
@@ -56,7 +56,7 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 
 
 
-## 📡 API Endpoints
+## API Endpoints
 
 | Method | Endpoint | Description |
 |--------|-----------|-------------|
