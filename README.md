@@ -74,4 +74,4 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 | **DELETE** | `/api/appointments/{id}` | Cancel an appointment |
 | **GET** | `/api/medical-records/{patientId}` | Get medical record of a patient |
 | **POST** | `/api/medical-records` | Add a new medical record |
-| **POST** | `/api/auth/login` | Login and receive JWT token |
+
